@@ -5,6 +5,14 @@ public class Passenger {
 	String passengerName;
 	String address;
 	int age;
+    int ticketNo;
+	public int getTicketNo() {
+		return ticketNo;
+	}
+
+	public void setTicketNo(int ticketNo) {
+		this.ticketNo = ticketNo;
+	}
 
 	public int getPassengerId() {
 		return passengerId;
