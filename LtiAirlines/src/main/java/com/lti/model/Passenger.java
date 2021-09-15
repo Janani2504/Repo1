@@ -6,6 +6,16 @@ public class Passenger {
 	String address;
 	int age;
     int ticketNo;
+    
+	public Passenger(int passengerId, String passengerName, String address, int age, int ticketNo) {
+		super();
+		this.passengerId = passengerId;
+		this.passengerName = passengerName;
+		this.address = address;
+		this.age = age;
+		this.ticketNo = ticketNo;
+	}
+
 	public int getTicketNo() {
 		return ticketNo;
 	}
