@@ -31,12 +31,12 @@ public class TestCase1 {
 	@Test
 	public void testObjects() {
 		Flight f1=new Flight(1001, "Mumbai", "Delhi");
-		Flight f2=new Flight(1001, "Mumbai", "Delhi");
-		//Flight f2=f1;
+		//Flight f2=new Flight(1001, "Mumbai", "Delhi");
+		Flight f2=f1;
 		
-		//assertSame(f1, f2);
+		assertSame(f1, f2);
 
-		assertSame("Objects are not same",f1, f2);
+		//assertSame("Objects are not same",f1, f2);
 	}
 	
 }
